@@ -1,0 +1,65 @@
+body {
+  background-image: url("./images/grassBackground.jpg");
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  font-weight: bolder;
+  margin-top: 4%;
+}
+#subTitle {
+  font-weight: bolder;
+  font-size: 1.6em;
+}
+#message {
+  font-weight: bolder;
+  font-size: 2em;
+}
+.game-zone {
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.ball-zone {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+  height: 100px;
+}
+.balld {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 6%;
+  padding: 5px;
+  background-color: #000000;
+  margin: 7.3%;
+}
+.balld2 {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 6%;
+  padding: 5px;
+  background-color: #000000;
+  margin-left: 100px;
+}
+.dropzone {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 20px;
+}
+#pause,
+#start {
+  margin: 5%;
+}
+.backgroundGreen {
+  background: #33d30b;
+}
+.backgroundRed {
+  background: #dd2d2d;
+}
